@@ -1,0 +1,179 @@
+<svg
+  width="1200"
+  height="120"
+  viewBox="0 0 1200 120"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="seaFloor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#43A047" />
+      <stop offset="50%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#87CEEB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sea floor -->
+
+  <path
+    fill="url(#seaFloor)"
+    d="M0 85
+       C180 55 320 105 500 78
+       C700 48 850 105 1020 72
+       C1100 58 1160 65 1200 70
+       V120 H0 Z"
+  />
+
+  <!-- Left sea plants -->
+
+  <g
+    fill="none"
+    stroke="#2E7D32"
+    stroke-width="5"
+    stroke-linecap="round"
+  >
+    <path d="M80 92 Q55 65 75 30">
+      <animate
+        attributeName="d"
+        values="
+          M80 92 Q55 65 75 30;
+          M80 92 Q95 65 75 30;
+          M80 92 Q55 65 75 30
+        "
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path d="M115 90 Q145 60 120 20">
+      <animate
+        attributeName="d"
+        values="
+          M115 90 Q145 60 120 20;
+          M115 90 Q90 60 120 20;
+          M115 90 Q145 60 120 20
+        "
+        dur="5s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path d="M150 88 Q125 65 150 42">
+      <animate
+        attributeName="d"
+        values="
+          M150 88 Q125 65 150 42;
+          M150 88 Q175 65 150 42;
+          M150 88 Q125 65 150 42
+        "
+        dur="3.5s"
+        repeatCount="indefinite"
+      />
+    </path>
+  </g>
+
+  <!-- Centre plants -->
+
+  <g
+    fill="none"
+    stroke="#388E3C"
+    stroke-width="4"
+    stroke-linecap="round"
+  >
+    <path d="M555 87 Q530 58 550 25">
+      <animate
+        attributeName="d"
+        values="
+          M555 87 Q530 58 550 25;
+          M555 87 Q580 58 550 25;
+          M555 87 Q530 58 550 25
+        "
+        dur="4.5s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path d="M590 85 Q620 55 600 35">
+      <animate
+        attributeName="d"
+        values="
+          M590 85 Q620 55 600 35;
+          M590 85 Q565 55 600 35;
+          M590 85 Q620 55 600 35
+        "
+        dur="3.8s"
+        repeatCount="indefinite"
+      />
+    </path>
+  </g>
+
+  <!-- Right sea plants -->
+
+  <g
+    fill="none"
+    stroke="#2E7D32"
+    stroke-width="5"
+    stroke-linecap="round"
+  >
+    <path d="M1010 82 Q980 55 1000 25">
+      <animate
+        attributeName="d"
+        values="
+          M1010 82 Q980 55 1000 25;
+          M1010 82 Q1035 55 1000 25;
+          M1010 82 Q980 55 1000 25
+        "
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path d="M1050 80 Q1080 50 1060 18">
+      <animate
+        attributeName="d"
+        values="
+          M1050 80 Q1080 50 1060 18;
+          M1050 80 Q1025 50 1060 18;
+          M1050 80 Q1080 50 1060 18
+        "
+        dur="5.2s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path d="M1090 78 Q1060 58 1085 38">
+      <animate
+        attributeName="d"
+        values="
+          M1090 78 Q1060 58 1085 38;
+          M1090 78 Q1115 58 1085 38;
+          M1090 78 Q1060 58 1085 38
+        "
+        dur="3.6s"
+        repeatCount="indefinite"
+      />
+    </path>
+  </g>
+
+  <!-- Bubbles -->
+
+  <g fill="#87CEEB" opacity="0.6">
+    <circle cx="210" cy="65" r="3">
+      <animate
+        attributeName="cy"
+        values="80;25;80"
+        dur="6s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="940" cy="70" r="2">
+      <animate
+        attributeName="cy"
+        values="85;20;85"
+        dur="8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+  </g>
+
+</svg>

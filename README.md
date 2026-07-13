@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,50:4FC3F7,100:0288D1&height=180&section=header&text=Harish%20Baskar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer&descAlignY=55&descSize=18" />
+<img width="100%" src="./assets/header.svg" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Trebuchet+MS&size=18&duration=2800&pause=900&color=0288D1&center=true&vCenter=true&width=600&lines=Building+for+the+Web+%26+Mobile+%E2%98%81%EF%B8%8F;React+%7C+React+Native+%7C+Node.js;Creating+clean+and+useful+experiences+%F0%9F%8C%B1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Trebuchet+MS&size=18&duration=2800&pause=900&color=0288D1&center=true&vCenter=true&width=600&lines=Building+for+the+Web+%26+Mobile;React+%7C+React+Native+%7C+Node.js;Creating+clean+and+useful+experiences" alt="Typing SVG" />
 
 <br/>
 
@@ -29,7 +29,7 @@ I work primarily with **React**, **React Native**, and **Node.js**, building ful
 
 <br/>
 
-<h2 align="center">☁️ Technical Skills ☁️</h2>
+<h2 align="center">Technical Skills</h2>
 
 <div align="center">
 
@@ -61,6 +61,6 @@ I work primarily with **React**, **React Native**, and **Node.js**, building ful
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:43A047,50:81C784,100:87CEEB&height=100&section=footer" />
+<img width="100%" src="./assets/footer.svg" />
 
 </div>
